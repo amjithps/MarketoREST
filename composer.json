@@ -1,0 +1,23 @@
+{
+    "name": "amjithps/marketo-rest-api",
+    "description": "API package to manage Marketo REST API.",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "iBexWeb",
+            "email": "amjithps@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Marketo": "src/"
+        }
+    }
+}
